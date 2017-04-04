@@ -1,0 +1,67 @@
+include::00_ProjectAttributes.adoc[]
+
+== Introduction
+=== Overview
+
+This BIM Execution Plan [BxP] provides a baseline document that helps guide the project team through the process of setting and achieving projects goals with regards to Building Information Modeling.
+
+The intent of the BxP is to clearly define roles and responsibilities of project members, facilitate clear communication, set project goals, and clarify the expectations and processes for BIM deliverables through the various stages of a project.
+
+It is essential that all parties follow the standards and procedures set forth in the BxP.
+
+Communication is key to a successful BIM project. This BxP and kick-off meeting serve to begin the project with strong and clear communication. The project team will continue a minimum of bi-weekly BIM meetings to ensure that all parties are following the BxP.
+
+Before the creation and exchange of any models the BxP will be reviewed with the entire project team during the project kick-off meeting at the start of the project. This meeting will be coordinated by BCJ. Each discipline should ensure that at least one model manager, or otherwise knowledgeable person, is in attendance.
+
+Consultant’s responsibilities under the Terms and Conditions of Agreement between Architect and Consultant shall apply to the development of BIM Model(s). All consultants are responsible for the development and implementation of BIM content within the respective disciplines and as required by this document.
+
+The BxP is a living document and will be maintained through the life of the project. It should be updated and sent to the project team after each bi-weekly BIM meetings.
+
+[glossary]
+=== Definition of Terms
+[glossary]
+As-Built Model::
+Model(s) based on Construction Model(s) and installed conditions.
+
+Construction Model::
+Models(s) based on criteria that are important to the translation of the facility’s construction.
+
+Design Intent Model::
+Model(s) based on criteria that are important to the translation of the facility’s design.
+
+Design Intent Record Model::
+Model(s) based on Design Intent Model(s) and all design and contract revisions upon substantial completion.
+
+Facility Attribute Data::
+Associated intelligent attribute data (e.g. manufacturer, model, warranty information, etc.)
+
+Level of Development (LOD)::
+Level of completeness to which a model element is developed at the end of each design and construction phase.
+
+Model Element Author (MEA)::
+Responsible party for developing the BIM content of a specific Model Element to the LOD required for a particular phase of the Project.
+
+Model Element::
+Portion of the model(s) representing a component, system, or assembly within a building or site.
+
+=== Right of Reliance
+The Building Information Model produced by the project stakeholders associated with the Design Team will serve as the basis of design and is considered a Design Intent Model only.  The model prepared by the Design Team will be used by Contractor to prepare a Construction Model.  This Right of Reliance pertains to all models and applications associated with the model and associated applications.
+
+The Construction Team may rely on the accuracy of the model(s) prepared by the Design Team in accordance with traditional Standard of Care provisions that apply and govern the design and construction of comparable buildings in two (2) - dimensional design formats and methods.
+
+Conversely, the Design Team may rely on the accuracy of the model(s) prepared by the Construction Team in accordance with traditional Standard of Care provisions that apply and govern the preparation of shop drawings, fabrication drawings, sequencing and other instruments used to convey the means and methods under the control of Contractor, its subcontractors, consultants and other agents working on this project.
+
+As mutually agreed by all parties including BCJ, Contractor and Client, nothing shall be construed by the content and/or preparation of the associated model(s) as a warranty or guarantee of accuracy and/or completeness by the Design Team.  Standard and traditional procedures for design, documentation, means and methods, shop drawing submittals, verification by the contractor, requests for information in question, etc. shall apply to the design, construction and construction administration of the project.
+
+The construction manager, contractors and subcontractors shall be solely responsible for means and methods and the execution of the Design Intent Model through the execution, preparation and management of delegated design, the Construction Model(s), fabrication, installation and construction.
+
+=== References
+This BxP was written using many references these and others are listed below.
+
+BIM Execution Planning Guide developed by CIC Research Group, The Pennsylvania State University. http://bim.psu.edu/
+	BIM Project Execution Guide v2.1
+	BIM Goal Use Analysis Worksheet
+	Information Exchange Worksheet
+
+AIA Document G202–2013, Project Building Information Modeling Protocol Form
+ 

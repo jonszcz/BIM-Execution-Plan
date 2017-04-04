@@ -1,0 +1,22 @@
+include::00_ProjectAttributes.adoc[]
+
+== Model Use
+=== BIM Goals
+The Building Information Modeling will be used on this project for the following goals. All models should be developed in a way that ensures these goals are achieved.  The BIM model(s) being developed by the design teams will be developed with the highlighted goals in mind.  The BIM model will also be developed to allow the construction manager team and campus operations team to reference the design BIM model as a guide and to develop their own internal BIM models.
+[Use Appendix A – BIM Use Analysis Worksheet to determine appropriate uses of the model]
+
+Planning	Design	Construction	Operation
+Programming	Design Authoring	Site Utilization Planning	Building Maintenance
+Site Analysis	Design Review	Construction Systems	System Analysis
+	3D Coordination	3D Coordination	Asset Management
+	Structural Analysis	Digital Fabrication	Space Management
+	Lighting Analysis	3D Control & Planning	Disaster Planning
+	Energy Analysis	Record Modeling	Record Modeling
+	Mechanical Analysis
+	Other Eng. Analysis
+	Sustainability Analysis
+	Code Evaluation
+
+Phase Planning (4D)	Phase Planning (4D)	Phase Planning (4D)	Phase Planning (4D)
+Cost Estimation	Cost Estimation	Cost Estimation	Cost Estimation
+Existing Conditions	Existing Conditions	Existing Conditions	Existing Conditions

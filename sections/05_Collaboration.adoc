@@ -1,0 +1,70 @@
+include::00_ProjectAttributes.adoc[]
+
+== Collaboration
+=== Strategy
+The project will be developed in distinct volumes:
+Volume 01 – Site
+Volume 02 – Parking Structure & CUP
+Volume 03 – Plinth
+Volume 04 – Tower 01 - North
+Volume 05 – Tower 02 - Sourth
+
+Each volume of the project will be developed by unique teams made up of the same set of consultants. BCJ will have oversight on all volumes of the project acting as the Design Architect, but only intends to lead as the Architect of Record for the Plinth and two Towers. A master plan document will be used at the end of schematic design to coordinate the respective volumes.
+
+Since each volume will be developed along its own schedule, it is recommended that each unique project team clearly define the specific dates of meetings and information exchanges. The following section should be used as a guideline to assist in planning this schedule.
+05.2	Meetings
+The following table lists team meetings. These meetings are specific to the project’s BIM uses and goals.
+
+Meeting Type	Stage	Frequency	Participants	Location
+BIM Kick-Off	Project Start	One-Time	Design Team + UA + GC/CM
+TBD
+
+BIM Execution Review	SD-CD	Bi-Monthly
+Design Team
+TBD
+
+Design Coordination	SD-CD	Weekly	Design Team 	TBD
+Construction Progress
+Additional BIM Meetings
+
+All appropriate Client Facilities Management & Operations personnel and partners will be included in BIM kick-off meeting, as well as all major milestone conflict meetings (as outlined in the Quality Control Schedule below). Attendance at additional conflict meeting and Design Coordination meetings is at the discretion of Client personnel and their model managers.
+
+=== Information Exchange
+The team will be exchanging information on a staggered bi-weekly basis. The Architecture model(s) will be provided one week and the remaining disciplines’ models/files will be exchanged the following week.
+
+Additionally, each discipline will exchange a working .pdf set of drawings with their model. There are instances where elements of the project will not be modeled, but will be documented in two-dimensions only. By publishing a progress .pdf set of drawings with the model, we are ensuring that other members of the design team have the information necessary to fully coordinate the two scopes of work. The .pdf should at the minimum be the plans of the project, but may also include any other portions of the project that have been modified or progressed since the previous version of model was issued.
+
+All files will be uploaded to Dropbox by 5:00pm EST each Friday
+Dropbox Information
+Address:
+User:
+Pass:
+[UPDATE THIS INFORMATION WHEN WE ESTABLISH THIS DROPBOX FOLDER]
+
+Each discipline will have its own folder to upload models. All models and files should be exchanged via Dropbox transferring files by email attachment should be avoided.
+
+Prior to uploading a Revit file to the project FTP site, verify that your worksets have been managed according to section Error! Reference source not found.. Additionally, Audit the model, and Detach from Central so that there are no dependency issues when posting to the FTP site. Finally, Purge the unused families to reduce the overall file size.
+
+
+Information Exchange	Sender	Receiver	Freq.	Date	File Type
+Design Authoring & 3D Coordination	A	S,M,E,P,C,LA	Bi-Weekly	[MM-DD-YY]	.rvt
+.dwg
+.pdf
+	S,M,E,P	A	Bi-Weekly	[MM-DD-YY]	.rvt
+.pdf
+	C,LA		Bi-Weekly	[MM-DD-YY]	.dwg
+.pdf
+
+=== Collaboration/Communication Platform
+Internally, the BCJ team will be using Slack with integrated Screen Hero for communication and screen sharing for day-to-day communication.
+
+Externally, BCJ will be the owners of a Bluebeam Studio session to be used for redline mark-up and sharing between disciplines as well as between portions of the project. For additional information on Bluebeam, see this link.
+Bluebeam Studio Information
+Session Use
+Session ID:
+Session URL:
+[UPDATE THIS INFORMATION WHEN WE ESTABLISH A BLUEBEAM STUDIO SESSION]
+
+For modeling collaboration, there will likely be a multitude of software used. The options should be discussed within each unique project as selected based on that team’s knowledge base. For larger coordination efforts (by level, or at major milestones) teams should be using Navisworks to check for hard and soft collisions between trades. For smaller coordination efforts (specific design instances or tracking issues in meetings) BCFier should be used and transferred between consultants.
+
+Additionally, unique teams to the project may opt to use other software to track modeling collision efforts such as Solibri, Tekla, A360 or other.

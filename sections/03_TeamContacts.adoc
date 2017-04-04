@@ -1,0 +1,64 @@
+include::00_ProjectAttributes.adoc[]
+
+== Team Contacts
+=== Project Design Team
+The contacts provided below are those to be used as the day-to-day contacts and/or Project Managers for each discipline. If there is more than on PM or contact, provide their information and note any specific areas of control for clarity, see the Architecture group below as an example.
+Architecture
+Bohlin Cywinski Jackson, Project Manager
+Rob Aumer | raumer@bcj.com | 412.765.3890
+
+Bohlin Cywinski Jackson, Site
+First Lastname | flastname@bcj.com | 000.000.0000
+Structure, Mechanical, Electrical, Plumbing, Lighting, Acoustics, Code
+MEP Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Civil
+STV
+First Lastname | flastname@bcj.com | 000.000.0000
+Fire Protection
+FP Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Landscape
+First Lastname | flastname@bcj.com | 000.000.0000
+Information Communication Technology
+ICT Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Audio Visual
+Audio Visual Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Envelope
+Envelope Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Parking Structure Architect
+Envelope Company
+First Lastname | flastname@bcj.com | 000.000.0000
+
+=== BIM + CAD Leads
+The contacts provided below are those actively managing the models and, in the case where the discipline does not use BIM, CAD documentation files for each discipline. This is to ensure we connect the right people and encourage communication. If there is more than one model manager provide their information and note any specific areas of control for clarity, see the Architecture group below as an example.
+Architecture
+Bohlin Cywinski Jackson, BIM Manager
+First Lastname | flastname@bcj.com | 000.000.0000
+Structure
+First Lastname | flastname@bcj.com | 000.000.0000
+MEP
+First Lastname | flastname@bcj.com | 000.000.0000
+Civil
+STV
+First Lastname | flastname@bcj.com | 000.000.0000
+Fire Protection
+FP Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Landscape
+First Lastname | flastname@bcj.com | 000.000.0000
+Information Communication Technology
+ICT Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Audio Visual
+Audio Visual Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Envelope
+Envelope Company
+First Lastname | flastname@bcj.com | 000.000.0000
+Parking Structure Architect
+Parking Structure Company
+First Lastname | flastname@bcj.com | 000.000.0000
