@@ -21,7 +21,7 @@ Further instructions will be included in the repository as they are developed.
 == TODO
 .Document Format
 - [x] Break apart the sections into individual files
-- [ ] Create a main page that includes the TOC and multiple `include` functions
+- [x] Create a main page that includes the TOC and multiple `include` functions
 - [ ] Create tables for the locations where we define users, roles and email addresses
 - [ ] Update documents to include .adoc image references
 
