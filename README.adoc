@@ -1,0 +1,38 @@
+= BIM Execution Plan (Template)
+Jon Szczesniak <jszczesniak@bcj.com>
+v0.5, 2017-04-04
+:toc: none
+
+== Intro
+The intention of this repository is to prepare a series of documents that the firm can rely on to use as an starting point for each project's BIM Execution Plan (BxP).
+While we do currently have a Word document outlining the firm's BxP, we have found that once each project modifies the document to be specific to their project, those revisions are lost for future users.
+By placing these thoughts on GitHub, we are able to use version control as well as branching and merging to begin to have a central hub where we can review and manage all the project BxPs.
+
+This document has been rewritten in Asciidoc format for several reasons:
+
+1. It allows for the content of the document to be separate from the styling of the document.
+Often times more time is wasted getting the style and formatting to be "correct" rather than focusing on the content of the text itself.
+
+2. By rewritting in a markdown language, we now have the ability to scale the final output to a variety of end uses.
+We can use the the .adoc to export to a static HTML or wiki, export to Word, print to PDF, or a variety of other formats all using Pandoc.
+Further instructions will be included in the repository as they are developed.
+
+== TODO
+// Make interactive checkboxes
+// [options="interactive"]
+.Document Format
+* [ ] Break apart the sections into individual files
+* [ ] Create a main page that includes the TOC and multiple `include` functions
+* [ ] Create tables for the locations where we define users, roles and email addresses
+* [ ] Update documents to include .adoc image references
+
+.Content
+* [ ] Replace all instances of `Project Name` with a substitution that is defined in the YAML
+* [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+* [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+
+== Usage
+Each project team should fork the repo, and then modify the contents of the BxP to suit their needs.
+If, upon review with a memeber of the DesignTech or PM team, modifications are determined be suitable to update the overall template, a Pull request can be offered to the main.
+Additionally, if modifications to the template have been made, and the project team wants to use those changes, they can rebase from the master template.
+Further instructions will be provided as they are developed.
