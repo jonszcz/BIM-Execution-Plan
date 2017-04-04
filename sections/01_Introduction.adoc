@@ -17,32 +17,26 @@ Consultant’s responsibilities under the Terms and Conditions of Agreement betw
 
 The BxP is a living document and will be maintained through the life of the project. It should be updated and sent to the project team after each bi-weekly BIM meetings.
 
-[glossary]
+[[glossary]]
 === Definition of Terms
+
 [glossary]
-As-Built Model::
-Model(s) based on Construction Model(s) and installed conditions.
+[horizontal]
+As-Built Model:: Model(s) based on Construction Model(s) and installed conditions.
 
-Construction Model::
-Models(s) based on criteria that are important to the translation of the facility’s construction.
+Construction Model:: Models(s) based on criteria that are important to the translation of the facility’s construction.
 
-Design Intent Model::
-Model(s) based on criteria that are important to the translation of the facility’s design.
+Design Intent Model:: Model(s) based on criteria that are important to the translation of the facility’s design.
 
-Design Intent Record Model::
-Model(s) based on Design Intent Model(s) and all design and contract revisions upon substantial completion.
+Design Intent Record Model:: Model(s) based on Design Intent Model(s) and all design and contract revisions upon substantial completion.
 
-Facility Attribute Data::
-Associated intelligent attribute data (e.g. manufacturer, model, warranty information, etc.)
+Facility Attribute Data:: Associated intelligent attribute data (e.g. manufacturer, model, warranty information, etc.)
 
-Level of Development (LOD)::
-Level of completeness to which a model element is developed at the end of each design and construction phase.
+Level of Development (LOD):: Level of completeness to which a model element is developed at the end of each design and construction phase.
 
-Model Element Author (MEA)::
-Responsible party for developing the BIM content of a specific Model Element to the LOD required for a particular phase of the Project.
+Model Element Author (MEA):: Responsible party for developing the BIM content of a specific Model Element to the LOD required for a particular phase of the Project.
 
-Model Element::
-Portion of the model(s) representing a component, system, or assembly within a building or site.
+Model Element:: Portion of the model(s) representing a component, system, or assembly within a building or site.
 
 === Right of Reliance
 The Building Information Model produced by the project stakeholders associated with the Design Team will serve as the basis of design and is considered a Design Intent Model only.  The model prepared by the Design Team will be used by Contractor to prepare a Construction Model.  This Right of Reliance pertains to all models and applications associated with the model and associated applications.
