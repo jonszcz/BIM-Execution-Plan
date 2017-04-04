@@ -1,7 +1,9 @@
-// Project attributes to be modified and made project specific. Additional attributes can be defined here and will be linked to each of the sections.
 // Syntax is `:AttributeName: VALUE`
 // To use the value in a document the `{AttributeName}` syntax should be used where you want the text substitution in the document..
+//
+// Project attributes to be modified and made project specific. Additional project attributes can be defined here and will be linked and available to each of the sections.
 :client: CLIENT
 :project_name: PHASE 01
 :bcj_project_number: 16xxx
+// Overall document attributes are defined here.
 :icons: font
