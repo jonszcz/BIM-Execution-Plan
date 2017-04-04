@@ -22,15 +22,15 @@ Further instructions will be included in the repository as they are developed.
 // Make interactive checkboxes
 // [options="interactive"]
 .Document Format
-[ ] Break apart the sections into individual files
-[ ] Create a main page that includes the TOC and multiple `include` functions
-[ ] Create tables for the locations where we define users, roles and email addresses
-[ ] Update documents to include .adoc image references
+  [ ] Break apart the sections into individual files
+  [ ] Create a main page that includes the TOC and multiple `include` functions
+  [ ] Create tables for the locations where we define users, roles and email addresses
+  [ ] Update documents to include .adoc image references
 
 .Content
-[ ] Replace all instances of `Project Name` with a substitution that is defined in the YAML
-[ ] Replace all instances of `Client` with a substitution that is defined in the YAML
-[ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+  [ ] Replace all instances of `Project Name` with a substitution that is defined in the YAML
+  [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+  [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
 
 == Usage
 Each project team should fork the repo, and then modify the contents of the BxP to suit their needs.
