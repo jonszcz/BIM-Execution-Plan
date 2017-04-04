@@ -2,7 +2,7 @@
 Jon Szczesniak <jszczesniak@bcj.com>
 v0.5, 2017-04-04
 :toc: none
-:icon: font
+:icons: font
 
 == Intro
 The intention of this repository is to prepare a series of documents that the firm can rely on to use as an starting point for each project's BIM Execution Plan (BxP).
@@ -19,18 +19,16 @@ We can use the the .adoc to export to a static HTML or wiki, export to Word, pri
 Further instructions will be included in the repository as they are developed.
 
 == TODO
-// Make interactive checkboxes
-// [options="interactive"]
 .Document Format
-  [ ] Break apart the sections into individual files
-  [ ] Create a main page that includes the TOC and multiple `include` functions
-  [ ] Create tables for the locations where we define users, roles and email addresses
-  [ ] Update documents to include .adoc image references
+- [ ] Break apart the sections into individual files
+- [ ] Create a main page that includes the TOC and multiple `include` functions
+- [ ] Create tables for the locations where we define users, roles and email addresses
+- [ ] Update documents to include .adoc image references
 
 .Content
-  [ ] Replace all instances of `Project Name` with a substitution that is defined in the YAML
-  [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
-  [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+- [ ] Replace all instances of `Project Name` with a substitution that is defined in the YAML
+- [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
+- [ ] Replace all instances of `Client` with a substitution that is defined in the YAML
 
 == Usage
 Each project team should fork the repo, and then modify the contents of the BxP to suit their needs.
