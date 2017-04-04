@@ -1,0 +1,43 @@
+include::00_ProjectAttributes.adoc[]
+
+== Quality Control
+=== Model Checking
+Description
+Types
+
+Abbrev	Check Type	Definition
+VC	Visual Check	Ensure there are no unintended model components and the design intent has been followed. Audit and purge models.
+IC	Interference Check	Detect problems in the model where two building components are clashing
+SC	Standards Check	Ensure that the BIM standard has been followed.
+MI	Model Integrity Check	QC validation to ensure required meta-data, component categories and project compliant components are correct
+Schedule
+
+Check	Models	Responsible Parties	Software	Schedule
+VC	A, M, E, P	Model Author(s)	Revit	Each major milestone at 50% and 100%.
+SC	A, M, E, P	Model Author(s)	Revit
+	This should be done continuously, but will be officially reviewed at the BIM Execution Meetings. See Meetings.
+
+MI	A, M, E, P	Model Author(s)	Revit	100% DD, 90% CD
+IC	A, S	Architecture	Revit
+Navisworks	100%DD, 50% CD, 90% CD
+IC	A, M	Architecture	Revit
+Navisworks	100%DD, 50% CD, 90% CD
+IC	S, M	Structure	Revit
+Navisworks	100%DD, 50% CD, 90% CD
+IC	S, P	Structure	Revit
+Navisworks	100%DD, 50% CD, 90% CD
+IC	S, M, P	Structure	Revit
+Navisworks	100%DD, 50% CD, 90% CD
+
+
+FP
+P						MEP
+E					MEP	MEP
+M				MEP	MEP	MEP
+S			S	S	S	S
+A		A	A	A	A	A
+	A	S	M	E	P	FP
+
+The chart to the left identifies the IC checks to be completed during the project. Unless decided otherwise, official checks will take place in either Revit or Navisworks at: 100% DD, 50% CD, and 90% CD. A report will be exported from the software and distributed to the team as a record of the IC.
+
+The party responsible for the IC check is shown at the intersection of the trades.

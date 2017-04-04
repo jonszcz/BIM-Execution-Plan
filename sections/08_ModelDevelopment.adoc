@@ -1,0 +1,48 @@
+include::00_ProjectAttributes.adoc[]
+
+== Model Development
+=== Description
+ [If a separate contract exists, like AIA G202 it will take precedent over this section, make sure they are in concert with one another, or add one note to this section pointing to the contract]
+
+=== Model Development Process
+The following process is defined for the Record Model and the As-Built Model. Specific details to be confirmed by the project team:
+•	BCJ and their consultants are responsible for the Design Intent Models. Contractor and their subcontractors are responsible for the As-Built Models.
+•	BCJ will provide the coordinated Design Intent Record Models to Client at the conclusion of each major project phase. Client will then provide Contractor these models to be used for design coordination in collaboration with the Design Team and to be used as a reference for the creation of the initial Construction Model(s).
+•	Contractor and their subcontractors will update the Construction Model with all as-built conditions and facility attribute data to form the As-Built Model deliverable back to Client.
+•	See BIM Development Process Diagram for a diagram of the proposed workflow.
+
+=== Level of Development
+It is unfeasible to expect that all elements of the project will be modeled in detail in the Design Record Intent model. As a rudimentary rule of thumb, it should be expected that any elements that would traditionally be printed in a 1/8” = 1’-0” drawing would should up in the model at the appropriate time. Additional information regarding LOD and element geometry vs data can be found in the BIM Development Matrix.
+
+Level of Development (LOD) is the level of completeness to which a model element is developed at the end of each project phase. Refer to the Model Development Plan & MEA for more details.
+
+LOD 100:	Schematic Design; overall building massing; whole building analysis (volume, orientation, square footage costs)
+LOD 200:	Design Development; generalized systems/assemblies (approximate quantities, size, shape, location, orientation); selected system performance analysis
+LOD 300:	Construction Documentation; generation of traditional CD's; analysis and simulation of detailed elements/systems;
+Coordinate with CM to determine what they will need from the level 300 model to help them facilitate subsequent models
+
+=== Model Development Plan and Model Element Authors
+This section is used to guide the project team in how to develop the model in order to achieve and accommodate the Model Uses and BIM Goals for the project defined in Model Use.
+
+The Model development plan will be used to audit the BIM progress and coordinate the project team’s efforts throughout the project. This will be reviewed during the BIM Execution Review meetings described in Collaboration.
+
+See appendix for the BIM Development Matrix for a full matrix of the Development Plan and MEA for the project. As this is a working document, these values and responsibilities will be refined throughout the project’s lifespan and will be discussed regularly.
+
+=== Model Transfer for Contractor Use
+It is BCJ’s policy that any BIM be transferred to the Contractor via the Owner. To that end, when a model is delivered for use by the Contractor, our policy also stipulates that we only deliver the geometry and associated data to that geometry. All other model elements are removed from the file. The preferred method of delivery is via an IFC4 file.
+
+Additional information on model transfer for Owner and Contract use can be found in both the Right of Reliance section of this document as well as the Electronic File Designated Use License Agreement in the Appendix.
+
+=== Facilities Management and Asset Attribute data
+[It is assumed that UA will want a dataset of asset attributes at closeout for some type of integrated facilities management program. As of now, those final deliverables are unknown. This should be discussed at or before the BIM kickoff meeting to see what deliverables and/or standards should be anticipated during the Design phase as well as those anticipated from the Construction phase. For instances, some FM software will prepend an room name with the level it’s on but this data can only be an numeric value, therefore we’d have to name our levels differently for the FM data downstream.]
+
+=== Model Closeout Deliverables
+Team Members	Deliverable	Format
+Design Team Project Closeout	Design Intent Record Model	.ifc format (Version 4)
+	Record Document Digital Drawings	.pdf format
+	Record Document Hard copy Drawings	3 sets
+
+Contractor Project Closeout	Scanned Field Set Drawings – As-Builts	.tif format
+	O&M Manuals	paper / .pdf / .xls format
+	As-Built COBie Construction (worksheets 11, 14-28)	.xls format
+	As Built FM / Coordination models	Their native format.

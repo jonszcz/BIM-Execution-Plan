@@ -1,0 +1,43 @@
+include::00_ProjectAttributes.adoc[]
+
+== Technology
+=== Software
+The project will be documented using Autodesk Revit. Below is a list of the disciplines on the project team and what software they will be using.
+
+Architecture	Revit
+Parking Structure Architect	Revit
+Civil	[Civil 3D]
+Landscape	[AutoCAD]
+Structure 	Revit
+Mechanical	Revit
+Electrical	Revit
+Plumbing	Revit
+Fire Protection	Revit
+Information Communication Technology	[???]
+Audio Visual	[???]
+Envelope	[???]
+Lighting	[???]
+Acoustics	[???]
+Version & Updating
+All disciplines will start with the most current version of their respective software. For Autodesk software (AutoCAD, Civil3D, Revit, Navisworks, etc) the current version of which is 2016.
+
+As Autodesk generally updates their software in June of each year, all updates to the software will be coordinated by BCJ. All Service Releases will be installed as they come out. The project team will switch to the newest version of Revit within 1 month of the release of the Service Release of that version (e.g. Revit 2015 SR 1). Upgrades should be coordinated with a project’s schedule and ideally would occur directly after a major milestone. These version updates and service releases will be coordinated with each consultant’s BIM lead and project manager in advance of the team adoption to minimize any impact to the overall project schedule.
+Plugins
+List any Plugins or Add-ons to your software that may be used to supplement your workflow. If applicable note what function the plugin will perform.
+Bohlin Cywinski Jackson
+Worksharing Monitor for Autodesk Revit	Interoffice monitoring of central file access
+Dynamo for Revit			Data manipulation and workflow optimization
+COBie extension			Data extraction to COBie formatted workbooks
+Ideate BIMlink			Data extraction and linking to Excel
+BCFier				Creation, Editing and Management of BCF files for team coordination
+
+=== Hardware
+Each company is required to provide their team with hardware that meets the system requirements as defined by Autodesk. Links are provided to Autodesk’s webpage below.
+
+Revit hardware must meet the Performance configuration listed here:
+System requirements for Autodesk Revit 2015
+System requirements for Autodesk Revit 2016
+It is recommended that Mac users access Revit via Bootcamp
+
+AutoCAD hardware must meet the highest configuration recommended
+System requirements for Autodesk AutoCAD 2015

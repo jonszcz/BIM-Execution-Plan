@@ -1,0 +1,236 @@
+include::00_ProjectAttributes.adoc[]
+
+== Project Standards
+=== Discipline Designators
+The following is a subset of the full Discipline Designator table listed in section Sheet Naming. The items noted in this section are to be used as prefixes for both file naming as described below, as well as for correspondence and archiving of the project.
+
+Designator	Discipline
+V	Survey/Mapping
+B	Geotechnical
+C	Civil
+LA	Landscape
+S	Structural
+A	Architectural
+I	Interiors
+F	Fire Protection
+P	Plumbing
+M	Mechanical
+E	Electrical
+W	Distributed Energy
+T	Telecommunications
+LI	Lighting
+AC	Acoustics
+IT	Information Communication Technology
+AV	Audio / Visual
+EV	Envelope
+
+=== Volume Designators
+The following acronyms will be used to identify the various volumes of the building in accordance with section 05.1 Strategy.
+
+Designator	Volume
+MP	Master Plan
+SE	Site
+PK	Parking
+CP	C.U.P.
+PL	Plinth
+TN	Tower 01 – North
+TS	Tower 02 – South
+
+=== File Naming
+Revit models, and CAD files, will follow the naming convention:
+
+Volume Designator-Discipline Designator - Description (if applicable)
+
+For example PL-A – Shell.rvt would indicate the Architectural Shell model for the Plinth volume. The description designator is only necessary where there are multiple models from a trade, ie; Shell and Core, Interiors, Furniture, etc.
+
+// [DISCUSS THE NEED FOR ADDING A DATE WITH THE TEAM]
+
+=== File Setup
+The project location, level, and initial structural grid will be established by BCJ for the initial model exchange.
+
+The project survey point will be identical for all Volumes of the Project. It is located at [Description][indicated with a red dot in the image below].
+The coordinates of the survey point are as follows:
+N: XXX’
+E: XXX’
+EL: XXX.XX’
+
+Project base point will be located at intersection of grid A/1 [location of monument or existing structure with an established survey point indicated on current survey] [secondary geodesic survey marker or property line coordinate indicated on current survey][indicated with a blue dot in the image below]. The PBP may be unique for each Volume of the project. If unique points are uses, they must be explicitly noted in this section.
+
+All files will be linked by shared coordinates. Once linked, each model should “Acquire Shared Coordinates” from the Architectural model distributed during the initial model exchange.
+
+=== Worksets
+Default Worksets
+The following Worksets will be standard for each model:
+
++Coordination
+Shared Levels & Grids
+X-R-Site
+
+The +Coordination workset contains model elements that are contained in more than one model for the expressed purpose of coordination between disciplines. In particular, model elements that will change Model Element Author during the design process as indicated in the Model Development Matrix are likely to be included on this workset (i.e. light fixtures, plumbing fixtures, floor drains, structural walls\floors, et cetera).
+
+Shared Levels & Grids will contain the levels and grids. Consultants should copy-monitor the levels and grids from the XX_A model, where XX is the volume designator as noted above. The Architectural model is the only model that contains non-Copy/Monitored grids and levels.
+
+X-R-Site will host the XX-V model that contains the survey and topography. Modifications to the groundscape will need to be coordinated between the Landscape, Civil and Architectural scopes of work.
+Link Worksets
+There will also be a workset for each linked model, they should follow the nomenclature: X-R-[Name]. The first X is for External Reference, the second letter R is for Revit as these should be Revit models.
+
+X-R-Architectural
+X-R-Structural
+X-R-Mechanical
+X-R-Electrical
+X-R-Plumbing
+X-R-Fire Protection
+
+Any major linked DWGs should follow the nomenclature: X-C-[Description]. The first X is for External Reference, the second letter C is CAD.
+
+X-C-Survey
+X-C-Existing Plans
+X-C-Landscape
+Workset Prefixes
+To facilitate coordination and view control each discipline should use unique identifiers for each workset[s].
+
+Each discipline should add the prefix to the workset that coincides with the Discipline Designator as defined in Sheet Naming.
+
+Examples
+Architecture	A-
+A-Code Analysis
+A-Entourage
+A-Furniture
+A-Interior
+A-Shell and Core
+Electrical	E-
+Mechanical	M-
+Plumbing	P-
+Structure	S-
+
+=== Background Views
+Architectural backgrounds shall be derived from the following views within the Architectural model[s]:
+
+	Floor Plans:
+Floor Plan: LEVEL XX FLOOR PLAN
+
+	Reflected Ceiling Plans:
+Reflected Ceiling Plan: LEVEL XX REFLECTED CEILING PLAN
+
+=== Graphics
+All text should be Arial. General notes will be Arial 3/32”. BCJ will provide the project title block, view titles, and text styles for notes and schedules.
+
+=== Sheet Format
+The project sheet size will be Arch E1 (30” x 42”)
+
+=== Sheet Naming
+Sheet naming convention follows the format AA###x where the first two letters designate the discipline. The first number designates the Sheet. The second and third numbers are used for the sheet sequence.  Where necessary a letter suffix [a,b,c,..] will be used to designate enlarged plans.
+
+AA###x
+Discipline Designator
+
+Designator	Discipline
+G	General
+H	Hazardous Materials
+V	Survey/Mapping
+B	Geotechnical
+C	Civil
+L	Landscape
+S	Structural
+A	Architectural
+I	Interiors
+Q	Equipment
+F	Fire Protection
+P	Plumbing
+D	Process
+M	Mechanical
+E	Electrical
+W	Distributed Energy
+T	Telecommunications
+R	Resource
+X	Other Disciplines
+Z	Contractor/Shop Drawings
+O	Operations
+	AA###x
+Discipline Modifier
+
+Modifier	Discipline
+A	-	Architecture
+	D	Demo
+	S	Site
+	P	Plinth
+	G	Parking Garage Structure
+	T	Office Tower
+
+
+
+AA###x
+Sheet Series
+
+Designator	Sheet Type
+0	General
+1	Plans
+2	Elevations
+3	Sections
+4	Enlarged Plans
+5	Details
+6	Vertical Circulation
+7	Interior Elevations
+8	Reflected Ceiling Plans
+9	Schedules
+
+	AA###x
+Sequence
+
+The last numbers are for sequencing the sheets. The sequence should match between sheet types where possible.
+
+For example:
+AT102a-Office Tower Second Floor Plan Area A
+AP801a-Plinth First Floor RCP Area A
+
+=== View Format
+BCJ will provide view titles to consultants.
+
+Views are arranged and numbered starting at the lower right side of the sheet and moving first to the top of the sheet then to the left. This ensures that drawings stay as far away from the bound edge as possible.
+
+=== Shared Parameters
+A shared parameters file will be provided by BCJ for transferring project specific parameters. Consultants should import the required shared parameters into their project at the direction of BCJ.  Shared parameters will be needed to schedule and any unique parameters on elements in more than one model.  The list below is provided to illustrate this setup.
+
+
+Name	Description	Type	Example	Type/Inst	Categories
+Schematic Design	SD Issuance	Text	12/31/2015	Type	Sheets
+Design Development	DD Issuance	Text	12/31/2015	Type	Sheets
+Construction Documents	CD Issuance	Text	12/31/2015	Type	Sheets
+Addendum 01
+Addendum Issuance
+Text
+12/31/2015
+Type
+Sheets
+
+Sheet Group	To group sheets in sheet list	Integer	01	Type	Sheets
+
+Door Type	Door type identifier	Text	F, DF, FG	Type	Doors
+Door Material	Door material	Text	WD, HM	Type	Doors
+Door Finish	Door finish	Text	WD1, P2	Inst	Doors
+Frame Type	Frame type	Text	F1	Type	Doors, Windows
+Frame Material	Frame material	Text	WD, HM	Type	Doors, Windows
+Frame Finish	Frame finish	Text	WD1, P2	Inst	Doors, Windows
+Jamb Detail	Jamb detail	Text	16/A5.03	Type	Doors, Windows
+Head Detail	Head detail	Text	16/A5.03	Type	Doors, Windows
+Sill Detail	Sill detail	Text	16/A5.03	Inst	Doors, Windows
+
+=== Phasing
+[CONFIRM – THIS MAY NEED TO INCLUDE MP PHASES AND SUB PHASES (I.E. PHASE 1A, 1B, 1C, ETC]
+Description of phasing condition.
+
+Existing			Description
+New Construction		Description
+
+=== Design Options
+Design Options are an integral part of the design process, but should be eliminated from the model as soon as their study in the project has been complete. When used, the author of the Design Option should clearly name both the Option Set as well as the Options within the set so that they can be understood and toggled via Visibility Graphics efficiently.
+
+The only Design Options that may remain in the design model indefinitely are those in which various arrangements are all equally likely to occur in the model; furniture layouts in an auditorium for instance. In these occurrences, it’s very important to clearly name the Option Set as well as the room or space to which the option set belongs.
+
+=== Sheet Output
+Sheet output from the BIM or other CAD software will be in .PDF format.  PDFs will orient sheets in landscape view.  Each sheet will be an individual .PDF file as to expedite creating a compiled PDF with bookmarks.  The file name for each sheet will follow the logic of sheet naming organization outlined in section File Naming :
+
+[DisicplineDesignator][DisciplineModifier][SheetType#][Sequence#][enlargement suffix]-[SHEET-TITLE-CAPS-DASHES-NO-SPACES][YY_MMDDYYMMDD]
+eg: AP801a-PL-FIRST-FLOOR-RCP-AREA-A_16_0123
+
+ADD DATE IF REQUIRED – DISCUSS WITH TEAM

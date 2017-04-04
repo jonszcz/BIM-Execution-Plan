@@ -1,0 +1,25 @@
+include::00_ProjectAttributes.adoc[]
+
+== Project Data
+=== General Info
+Phase 1
+Project # 15XXX
+Client
+Address
+1020 Some Street
+City, State 15222
+[UPDATE THE ADDRESS – BUILDING 37?]
+Client Project Number
+YY-00-000
+
+=== Description
+Project Description
+[CONFIRM AND UPDATE GSF and PARKING]
+
+=== Project Schedule / Phases / Milestone
+[Substitute for an item in the Appendix for the full project schedule, including Info Exchanges]
+
+Project Phase	Estimate Start Date	Estimated Completion Date
+Schematic Design	TBD	TBD
+Design Development	TBD	TBD
+Construction Documents	TBD	TBD
