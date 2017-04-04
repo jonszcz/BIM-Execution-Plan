@@ -19,7 +19,7 @@ Further instructions will be included in the repository as they are developed.
 
 == TODO
 // Make interactive checkboxes
-// [options="interactive"]
+[options="interactive"]
 .Document Format
 * [ ] Break apart the sections into individual files
 * [ ] Create a main page that includes the TOC and multiple `include` functions
