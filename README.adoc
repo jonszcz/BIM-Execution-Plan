@@ -4,6 +4,10 @@ v0.5, 2017-04-04
 :toc: none
 :icons: font
 
+--
+*UPDATE*: This project is abandoned in it's current form. It lives on as a project rewritten in markdown and processed with pandoc and MAKE files.
+---
+
 == Intro
 The intention of this repository is to prepare a series of documents that the firm can rely on to use as an starting point for each project's BIM Execution Plan (BxP).
 While we do currently have a Word document outlining the firm's BxP, we have found that once each project modifies the document to be specific to their project, those revisions are lost for future users.
