@@ -4,8 +4,9 @@ v0.5, 2017-04-04
 :toc: none
 :icons: font
 
---
+---
 *UPDATE*: This project is abandoned in it's current form. It lives on as a project rewritten in markdown and processed with pandoc and MAKE files.
+
 ---
 
 == Intro
